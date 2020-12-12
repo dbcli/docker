@@ -2,7 +2,7 @@
 
 You can use a docker image for load litecli.
 
-notice of usage of litecli on https://www.pgcli.com/
+notice of usage of litecli on https://litecli.com/
 
 # Usage
 
