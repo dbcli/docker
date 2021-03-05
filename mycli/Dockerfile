@@ -1,7 +1,7 @@
 FROM python:3.8-alpine
 RUN \
  apk add --no-cache --virtual .build-deps gcc musl-dev libffi-dev openssl-dev && \
- pip install mycli==1.23.2 && \
+ pip install mycli==1.24.1 && \
  apk --purge del .build-deps
 RUN mkdir /out
 VOLUME [ "/out" ]
